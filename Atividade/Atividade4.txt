@@ -1,0 +1,29 @@
+Time meuTime = new Time("Sociedade Esportiva Palmeiras");
+
+            Jogador jogador1 = new Jogador("Carlos Miguel", "Goleiro", 1);
+            Jogador jogador2 = new Jogador("Augustin Giay", "Lateral-Direito", 4);
+            Jogador jogador3 = new Jogador("Gustavo Gómez", "Zagueiro", 15);
+            Jogador jogador4 = new Jogador("Alexander Barboza", "Zagueiro", 2);
+            Jogador jogador5 = new Jogador("Piquerez", "Lateral-Esquerdo", 22);
+            Jogador jogador6 = new Jogador("Marlon Freitas", "Volante", 17);
+            Jogador jogador7 = new Jogador("Andreas Pereira", "Segundo-Volante", 8);
+            Jogador jogador8 = new Jogador("Raphael Veiga", "Meio-Campo", 23); //volta veiga
+            Jogador jogador9 = new Jogador("Jhon Arias", "Ponta-Direita", 11);
+            Jogador jogador10 = new Jogador("Maurício", "Ponta-Esquerda", 18);
+            Jogador jogador11 = new Jogador("Flaco López", "Atacante", 42);
+
+            meuTime.AdicionarJogador(jogador1);
+            meuTime.AdicionarJogador(jogador2);
+            meuTime.AdicionarJogador(jogador3);
+            meuTime.AdicionarJogador(jogador4);
+            meuTime.AdicionarJogador(jogador5);
+            meuTime.AdicionarJogador(jogador6);
+            meuTime.AdicionarJogador(jogador7);
+            meuTime.AdicionarJogador(jogador8);
+            meuTime.AdicionarJogador(jogador9);
+            meuTime.AdicionarJogador(jogador10);
+            meuTime.AdicionarJogador(jogador11);
+
+            meuTime.ListarJogadores();
+
+            Console.ReadKey();
