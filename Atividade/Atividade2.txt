@@ -1,4 +1,4 @@
-﻿namespace Abstracao
+namespace Abstracao
 {
     internal class Program
     {
