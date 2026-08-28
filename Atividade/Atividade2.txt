@@ -1,9 +1,3 @@
-namespace Abstracao
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
             Aluno Aluno1 = new Aluno();
             Aluno1.Nome = "Felipe";
             Aluno1.Matricula = 4183;
@@ -12,6 +6,3 @@ namespace Abstracao
             Aluno1.CalcularMedia();
 
             Console.ReadKey();
-        }
-    }
-}

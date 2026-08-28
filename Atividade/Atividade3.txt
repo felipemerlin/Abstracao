@@ -1,0 +1,22 @@
+ContaBancaria conta = new ContaBancaria("Felipe", "46378409889", 1000);
+
+            Console.WriteLine($"Titular: {conta.Titular}");
+            Console.WriteLine($"Número da conta: {conta.NumeroConta}");
+            Console.WriteLine($"Saldo inicial: R$ {conta.Saldo:F2}");
+
+
+            Console.WriteLine();
+            conta.Depositar(500);
+
+
+            conta.Sacar(300);
+
+
+            Console.WriteLine();
+            Console.WriteLine($"Saldo final: R$ {conta.Saldo:F2}");
+
+
+            Console.WriteLine();
+            conta.Sacar(10000);
+
+            Console.ReadKey();
