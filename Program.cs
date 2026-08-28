@@ -23,9 +23,9 @@
             Caneta.QuantidadeEmEstoque = 10;
 
             Produto Caderno = new Produto();
-            Caneta.Nome = "Caderno";
-            Caneta.Preco = 30.00;
-            Caneta.QuantidadeEmEstoque = 10;
+            Caderno.Nome = "Caderno";
+            Caderno.Preco = 30.00;
+            Caderno.QuantidadeEmEstoque = 10;
 
 
             Console.WriteLine("Informações do meu carro:");
@@ -43,7 +43,7 @@
 
             Console.WriteLine();
 
-            Console.WriteLine("Informações do carro do caderno:");
+            Console.WriteLine("Informações do caderno:");
             Caderno.ExibirInformacoes();
 
             Console.ReadKey();
